@@ -13,11 +13,8 @@
     "name": "Retro",
     "url": "https://t.me/myththewolf"
   },
-  "dependencies": {
-    "com.vrchat.avatars": ">=3.10.1"
-  },
   "vpmDependencies": {
-    "dev.hai-vr.animator-as-code.v1.vrchat": "=1.1.2",
+    "dev.hai-vr.animator-as-code.v1.vrchat": "1.1.2",
     "net.bitforged.rdrm": "1.0.0"
   }
 }
