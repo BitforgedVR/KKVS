@@ -12,5 +12,9 @@
   "author": {
     "name": "Retro",
     "url": "https://t.me/myththewolf"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.6.0",
+    "nadena.dev.modular-avatar": ">=1.9.13"
   }
 }
