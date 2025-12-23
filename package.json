@@ -1,0 +1,16 @@
+{
+  "name": "net.bitforged.kkvs",
+  "version": "1.0.0",
+  "displayName": "RetroKKVS Revamped",
+  "description": "This package overhauls KKVS.",
+  "unity": "2022.3",
+  "keywords": [
+    "bitforged",
+    "rdrm",
+    "retro"
+  ],
+  "author": {
+    "name": "Retro",
+    "url": "https://t.me/myththewolf"
+  }
+}
