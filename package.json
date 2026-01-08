@@ -15,6 +15,7 @@
   },
   "vpmDependencies": {
     "dev.hai-vr.animator-as-code.v1.vrchat": "1.1.2",
+    "com.vrchat.avatars": "3.10.1",
     "net.bitforged.rdrm": "1.0.0"
   }
 }
