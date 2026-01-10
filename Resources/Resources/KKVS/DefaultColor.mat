@@ -22,6 +22,7 @@ Material:
   - _RIM2STYLE_POIYOMI
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
+  - _STYLIZEDREFLECTIONMODE_UNITYCHAN
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -763,12 +764,14 @@ Material:
     - _AnisoAdd: 1
     - _AnisoAngleY: 1
     - _AnisoColorMapUV: 0
+    - _AnisoFadeByLightDirection: 0
     - _AnisoGlobalMask: 0
     - _AnisoGlobalMaskBlendType: 2
     - _AnisoHideInShadow: 1
     - _AnisoLayerStr: 0.1
     - _AnisoLayerY: 1
     - _AnisoLerp: 0
+    - _AnisoNormalBlend: 1
     - _AnisoReplace: 0
     - _AnisoSpec1Alpha: 1
     - _AnisoSpec1Alpha1: 1
@@ -1275,6 +1278,10 @@ Material:
     - _Decal3VideoEmissionStrength: 0
     - _Decal3VideoEnabled: 0
     - _Decal3VideoFitToScale: 1
+    - _DecalAlphaIntensity: 1
+    - _DecalAlphaIntensity1: 1
+    - _DecalAlphaIntensity2: 1
+    - _DecalAlphaIntensity3: 1
     - _DecalBlendAdd: 0
     - _DecalBlendAddAnimated: 0
     - _DecalBlendAlpha: 1
@@ -3674,11 +3681,15 @@ Material:
     - _ShadingShadeMapBlendType: 0
     - _Shadow2ndBlur: 0.3
     - _Shadow2ndBorder: 0.5
+    - _Shadow2ndColorTexAddition: 0
     - _Shadow2ndColorTexUV: 0
+    - _Shadow2ndNormalStrength: 1
     - _Shadow2ndReceive: 0
     - _Shadow3rdBlur: 0.1
     - _Shadow3rdBorder: 0.25
+    - _Shadow3rdColorTexAddition: 0
     - _Shadow3rdColorTexUV: 0
+    - _Shadow3rdNormalStrength: 1
     - _Shadow3rdReceive: 0
     - _ShadowBlur: 0.1
     - _ShadowBorder: 0.5
@@ -3686,6 +3697,7 @@ Material:
     - _ShadowBorderMaskLOD: 0
     - _ShadowBorderMaskUV: 0
     - _ShadowBorderRange: 0
+    - _ShadowColorTexAddition: 0
     - _ShadowColorTexUV: 0
     - _ShadowConditions: 0
     - _ShadowDithering: 0
@@ -3701,6 +3713,7 @@ Material:
     - _ShadowMixWidthMod: 0.5
     - _ShadowMixWidthModAnimated: 0
     - _ShadowMode: 1
+    - _ShadowNormalStrength: 1
     - _ShadowOffset: 0
     - _ShadowOffset1: 0
     - _ShadowOffset2: 0
@@ -4862,6 +4875,7 @@ Material:
     - s_end_OutlineZOffset: 0
     - s_end_PBRSecondSpecular: 0
     - s_end_PBRSplitMaskSample: 0
+    - s_end_PPPosterization: 0
     - s_end_ParallaxInternalHueShift: 0
     - s_end_ParallaxInternalLayerColoring: 0
     - s_end_ParallaxInternalLayerControls: 0
@@ -5098,6 +5112,7 @@ Material:
     - s_start_OutlineZOffset: 0
     - s_start_PBRSecondSpecular: 0
     - s_start_PBRSplitMaskSample: 0
+    - s_start_PPPosterization: 0
     - s_start_ParallaxInternalHueShift: 0
     - s_start_ParallaxInternalLayerColoring: 1
     - s_start_ParallaxInternalLayerControls: 1
@@ -5675,9 +5690,13 @@ Material:
     - _RefractionDissolveMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _RefractionMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _RefractionTint: {r: 1, g: 1, b: 1, a: 1}
+    - _RgbNormalABlendSources: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalAPan: {r: 0, g: 0, b: 0, a: 0}
+    - _RgbNormalBBlendSources: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalBPan: {r: 0, g: 0, b: 0, a: 0}
+    - _RgbNormalGBlendSources: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalGPan: {r: 0, g: 0, b: 0, a: 0}
+    - _RgbNormalRBlendSources: {r: 0, g: 0, b: 0, a: 0}
     - _RgbNormalRPan: {r: 0, g: 0, b: 0, a: 0}
     - _Rim2Color: {r: 0.65999997, g: 0.5, b: 0.47999996, a: 1}
     - _Rim2ColorTexPan: {r: 0, g: 0, b: 0, a: 0}
