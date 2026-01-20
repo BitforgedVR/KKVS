@@ -367,7 +367,7 @@ Material:
     - _BlendEnableColor: 0
     - _BlendEnableThis: 0
     - _BlendIsAdditive: 0
-    - _BlendMode: 0
+    - _BlendMode: 1
     - _BlendNoiseSource: 0
     - _BlurMaxRange: 15
     - _BlurMinRange: 8
@@ -421,7 +421,7 @@ Material:
     - _DistortionP2O: 1
     - _DistortionRadius: 2
     - _DistortionSpeed: 0.04
-    - _DistortionStr: 0.05
+    - _DistortionStr: 0.7
     - _DistortionStrength: 0.5
     - _DistortionUseGlobal: 1
     - _DoF: 0
@@ -429,7 +429,7 @@ Material:
     - _DoFP2O: 1
     - _DoFRadius: 2
     - _DoFToggle: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EdgeFadeOffset: 0.5
     - _EdgeFadePower: 300
     - _EdgeFadeSSR: 0.1
@@ -505,9 +505,9 @@ Material:
     - _LetterboxStr: 0
     - _ManualScrub: 0
     - _MaterialResetCheck: 0
-    - _MaxRange: 0.71
+    - _MaxRange: 1
     - _Metallic: 0
-    - _MinRange: 0.7
+    - _MinRange: 1
     - _MirrorNormalOffsetSwizzle: 1
     - _Mode: 0
     - _MonoTint: 0
@@ -536,7 +536,7 @@ Material:
     - _OLMinRange: 8
     - _OLUseGlobal: 1
     - _OcclusionStrength: 1
-    - _Opacity: 1
+    - _Opacity: 0
     - _OpaqueLights: 1
     - _OutlineAltEnable: 0
     - _OutlineCubeToggle: 0
@@ -634,7 +634,7 @@ Material:
     - _SpecStrength: 1
     - _Specular: 1
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _StencilRef: 0
     - _SubsurfaceBrightness: 10
     - _SubsurfaceStrength: 0
