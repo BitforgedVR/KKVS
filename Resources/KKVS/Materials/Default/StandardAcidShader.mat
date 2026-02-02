@@ -13,6 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _BLUR_PIXEL_ON
+  - _BLUR_Y_ON
   - _COLOR_ON
   - _DISTORTION_ON
   m_InvalidKeywords:
@@ -372,12 +373,12 @@ Material:
     - _BlurMaxRange: 15
     - _BlurMinRange: 8
     - _BlurModel: 1
-    - _BlurOpacity: 1
+    - _BlurOpacity: 0.882
     - _BlurRadius: 1
     - _BlurSamples: 23
-    - _BlurStr: 0.53
+    - _BlurStr: 0.356
     - _BlurUseGlobal: 1
-    - _BlurY: 0
+    - _BlurY: 1
     - _Brightness: 1
     - _BumpScale: 1
     - _CausticsDisp: 0.15
@@ -507,7 +508,7 @@ Material:
     - _MaterialResetCheck: 0
     - _MaxRange: 1
     - _Metallic: 0
-    - _MinRange: 1
+    - _MinRange: 1.17
     - _MirrorNormalOffsetSwizzle: 1
     - _Mode: 0
     - _MonoTint: 0
