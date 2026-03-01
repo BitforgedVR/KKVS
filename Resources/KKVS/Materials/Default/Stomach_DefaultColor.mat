@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Stomach_DefaultColor
-  m_Shader: {fileID: 4800000, guid: c3af2b4a5064adbeba814285464c8c89, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3cabe31d6e808c0f4896fc1ab519af76, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -61,7 +61,7 @@ Material:
     _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
   disabledShaderPasses:
   - ALWAYS
-  m_LockedProperties: 
+  m_LockedProperties:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:

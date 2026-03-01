@@ -7,13 +7,33 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
   m_Name: InternalScreenSolo
+========
+  m_Name: CameraMatNoVideo
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
   m_Shader: {fileID: 4800000, guid: 9444ce77bf4418748b1e8591b9d97f85, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - BSSBLOOMFOGTYPE_HEIGHT
   - GEOM_TYPE_BRANCH
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
+========
+  - GEOM_TYPE_BRANCH_DETAIL
+  - GEOM_TYPE_FROND
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+  m_Name: InternalScreenSolo
+  m_Shader: {fileID: 4800000, guid: a6cde80a6acc396f38f8470d6dc68152, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - BSSBLOOMFOGTYPE_HEIGHT
+  - GEOM_TYPE_BRANCH
+>>>>>>> 250ab57 (Commit for testing)
   - POI_UDIMDISCARD
   - VIGNETTE_MASKED
   - _LIGHTINGMODE_FLAT
@@ -21,15 +41,31 @@ Material:
   - _RIMSTYLE_POIYOMI
   - _STOCHASTICMODE_DELIOT_HEITZ
   - _STYLIZEDREFLECTIONMODE_UNITYCHAN
+<<<<<<< HEAD
   m_InvalidKeywords: []
+=======
+>>>>>>> 250ab57 (Commit for testing)
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
   stringTagMap:
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT GEOM_TYPE_BRANCH POI_UDIMDISCARD VIGNETTE_MASKED
       _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
       _STYLIZEDREFLECTIONMODE_UNITYCHAN
+========
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT GEOM_TYPE_BRANCH GEOM_TYPE_BRANCH_DETAIL
+      GEOM_TYPE_FROND POI_UDIMDISCARD VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI
+      _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ _STYLIZEDREFLECTIONMODE_UNITYCHAN
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    AllLockedGUIDS: e77dc9a18c5a9f4178899e89cd1ce29e
+    OriginalKeywords: BSSBLOOMFOGTYPE_HEIGHT GEOM_TYPE_BRANCH POI_UDIMDISCARD VIGNETTE_MASKED
+      _LIGHTINGMODE_FLAT _RIM2STYLE_POIYOMI _RIMSTYLE_POIYOMI _STOCHASTICMODE_DELIOT_HEITZ
+      _STYLIZEDREFLECTIONMODE_UNITYCHAN
+>>>>>>> 250ab57 (Commit for testing)
     OriginalShader: .poiyomi/Poiyomi Toon
     OriginalShaderGUID: 9444ce77bf4418748b1e8591b9d97f85
     RenderType: Opaque
@@ -46,15 +82,56 @@ Material:
     _DecalMask_texPack_r_channel: 4
     _DecalMask_texPack_r_fallback: 1
     _DecalMask_texPack_r_inverted: False
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
+=======
+>>>>>>> 250ab57 (Commit for testing)
     _UDIMDiscardRow3_0Animated: 1
     _UDIMDiscardRow3_1Animated: 1
     _UDIMDiscardRow3_2Animated: 1
     _UDIMDiscardRow3_3Animated: 1
+<<<<<<< HEAD
+========
+    _DistortionFlowTexturePanAnimated: 1
+    _UDIMDiscardRow0_1_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow0_2_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow0_3_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow1_0Animated: 1
+    _UDIMDiscardRow1_1Animated: 1
+    _UDIMDiscardRow1_1_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow1_2Animated: 1
+    _UDIMDiscardRow1_2_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow1_3Animated: 1
+    _UDIMDiscardRow1_3_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow2_0Animated: 1
+    _UDIMDiscardRow2_1Animated: 1
+    _UDIMDiscardRow2_1_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow2_2Animated: 1
+    _UDIMDiscardRow2_2_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow2_3Animated: 1
+    _UDIMDiscardRow2_3_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow3_0Animated: 1
+    _UDIMDiscardRow3_1Animated: 1
+    _UDIMDiscardRow3_1_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow3_2Animated: 1
+    _UDIMDiscardRow3_2_CameraMatVideoAnimated: 2
+    _UDIMDiscardRow3_3Animated: 1
+    _UDIMDiscardRow3_3_CameraMatVideoAnimated: 2
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    _stripped_tex__ClothDFG: 76d65cbce584df7449699fb8406f60ea
+    _stripped_tex__DecalTexture1: f55d139ffd22a0b428adc2b015fbe4db
+    _stripped_tex__DistortionFlowTexture: 07f0a54a3a4e7754eabc8ced70d7b30c
+    _stripped_tex__DistortionFlowTexture1: 70cd704e7a9550241b8a8b51fffc1a68
+    _stripped_tex__SkinLUT: d13510bb2be49aa40a66a0101efb6a36
+    _stripped_tex__ToonRamp: 61bd594533da4fc42bd46ef93ba5a4f6
+>>>>>>> 250ab57 (Commit for testing)
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+<<<<<<< HEAD
     - _1st_ShadeMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -67,10 +144,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _AlphaMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _AlphaTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -99,10 +179,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _ClearCoatFallback:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -127,6 +210,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -135,12 +220,13 @@ Material:
         m_Texture: {fileID: 8400000, guid: a501e20640045ee4691f993e87b05c75, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _DecalTexture1:
         m_Texture: {fileID: 8400000, guid: f55d139ffd22a0b428adc2b015fbe4db, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8400000, guid: a501e20640045ee4691f993e87b05c75, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DecalTexture3:
@@ -303,6 +389,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _LightDataSDFMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -319,6 +407,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _LookAtMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -331,10 +420,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _Matcap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -567,10 +659,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _UzumoreMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
     - _VertexBasicsMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -603,6 +698,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+=======
+>>>>>>> 250ab57 (Commit for testing)
     m_Ints: []
     m_Floats:
     - GeometryShader_Enabled: 1
@@ -994,7 +1091,11 @@ Material:
     - _Decal0OnlyVideo: 1
     - _Decal0OverrideAlphaMode: 0
     - _Decal0TPSMaskStrength: 1
+<<<<<<< HEAD
+    - _Decal0UseDecalAlpha: 1
+=======
     - _Decal0UseDecalAlpha: 0
+>>>>>>> 250ab57 (Commit for testing)
     - _Decal0VideoAspectFix: 0
     - _Decal0VideoEmissionStrength: 0
     - _Decal0VideoEnabled: 0
@@ -1071,8 +1172,18 @@ Material:
     - _DecalAlphaIntensity3: 1
     - _DecalBlendAlpha: 1
     - _DecalBlendAlpha1: 1
+<<<<<<< HEAD
+    - _DecalBlendAlpha1_Screen: 0
     - _DecalBlendAlpha2: 1
     - _DecalBlendAlpha3: 1
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
+========
+    - _DecalBlendAlpha_Screen: 1
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - _DecalBlendAlpha2: 1
+    - _DecalBlendAlpha3: 1
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalBlendType: 0
     - _DecalBlendType1: 0
     - _DecalBlendType2: 0
@@ -1081,13 +1192,27 @@ Material:
     - _DecalColor2ThemeIndex: 0
     - _DecalColor3ThemeIndex: 0
     - _DecalColorThemeIndex: 0
+<<<<<<< HEAD
+    - _DecalEmissionStrength: 1
+=======
     - _DecalEmissionStrength: 0
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalEmissionStrength1: 0
     - _DecalEmissionStrength2: 0
     - _DecalEmissionStrength3: 0
     - _DecalEnabled: 1
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     - _DecalEnabled1: 0
     - _DecalEnabled2: 0
+========
+    - _DecalEnabled1: 1
+    - _DecalEnabled2: 1
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - _DecalEnabled1: 0
+    - _DecalEnabled2: 0
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalEnabled3: 0
     - _DecalHueShift: 0
     - _DecalHueShift1: 0
@@ -1118,8 +1243,18 @@ Material:
     - _DecalOverrideAlpha1: 0
     - _DecalOverrideAlpha2: 0
     - _DecalOverrideAlpha3: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     - _DecalRotation: 0
     - _DecalRotation1: 0
+========
+    - _DecalRotation: 90
+    - _DecalRotation1: 90
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - _DecalRotation: 0
+    - _DecalRotation1: 0
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalRotation2: 0
     - _DecalRotation3: 0
     - _DecalRotationCTALBand0: 0
@@ -2639,7 +2774,11 @@ Material:
     - _Set_RimLightMaskChannel: 1
     - _Set_RimLightMaskUV: 0
     - _ShadeColor_Step: 0
+<<<<<<< HEAD
     - _ShaderOptimizerEnabled: 0
+=======
+    - _ShaderOptimizerEnabled: 1
+>>>>>>> 250ab57 (Commit for testing)
     - _ShaderUIWarning0: -0
     - _ShaderUIWarning1: -0
     - _ShadingEnabled: 1
@@ -2820,6 +2959,42 @@ Material:
     - _UDIMDiscardHelpbox: 0
     - _UDIMDiscardMode: 0
     - _UDIMDiscardRow0_0: 0
+<<<<<<< HEAD
+    - _UDIMDiscardRow0_0_CameraMatVideo: 0
+    - _UDIMDiscardRow0_1: 0
+    - _UDIMDiscardRow0_1_CameraMatVideo: 0
+    - _UDIMDiscardRow0_2: 0
+    - _UDIMDiscardRow0_2_CameraMatVideo: 0
+    - _UDIMDiscardRow0_3: 0
+    - _UDIMDiscardRow0_3_CameraMatVideo: 0
+    - _UDIMDiscardRow1_0: 0
+    - _UDIMDiscardRow1_0_CameraMatVideo: 0
+    - _UDIMDiscardRow1_1: 0
+    - _UDIMDiscardRow1_1_CameraMatVideo: 0
+    - _UDIMDiscardRow1_2: 0
+    - _UDIMDiscardRow1_2_CameraMatVideo: 0
+    - _UDIMDiscardRow1_3: 0
+    - _UDIMDiscardRow1_3_CameraMatVideo: 0
+    - _UDIMDiscardRow2_0: 0
+    - _UDIMDiscardRow2_0_CameraMatVideo: 1
+    - _UDIMDiscardRow2_1: 0
+    - _UDIMDiscardRow2_1_CameraMatVideo: 0
+    - _UDIMDiscardRow2_2: 0
+    - _UDIMDiscardRow2_2_CameraMatVideo: 0
+    - _UDIMDiscardRow2_3: 0
+    - _UDIMDiscardRow2_3_CameraMatVideo: 0
+    - _UDIMDiscardRow3_0: 0
+    - _UDIMDiscardRow3_0_CameraMatVideo: 0
+    - _UDIMDiscardRow3_1: 0
+    - _UDIMDiscardRow3_1_CameraMatVideo: 0
+    - _UDIMDiscardRow3_2: 0
+    - _UDIMDiscardRow3_2_CameraMatVideo: 0
+    - _UDIMDiscardRow3_3: 0
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
+========
+    - _UDIMDiscardRow3_3_CameraMatVideo: 0
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
     - _UDIMDiscardRow0_1: 0
     - _UDIMDiscardRow0_2: 0
     - _UDIMDiscardRow0_3: 0
@@ -2835,6 +3010,7 @@ Material:
     - _UDIMDiscardRow3_1: 0
     - _UDIMDiscardRow3_2: 0
     - _UDIMDiscardRow3_3: 0
+>>>>>>> 250ab57 (Commit for testing)
     - _UDIMDiscardUV: 1
     - _UDIMFaceDiscardFace: 0
     - _UDIMFaceDiscardRow0_0: 0
@@ -3177,7 +3353,15 @@ Material:
     - m_end_videoEffects: 0
     - m_end_voronoi: 0
     - m_end_voronoiRandom: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     - m_lightingCategory: 0
+========
+    - m_lightingCategory: 1
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - m_lightingCategory: 0
+>>>>>>> 250ab57 (Commit for testing)
     - m_mainCategory: 1
     - m_modifierCategory: 1
     - m_renderingCategory: 1
@@ -3196,9 +3380,15 @@ Material:
     - m_start_CubeMap: 0
     - m_start_Decal0: 1
     - m_start_Decal0AudioLink: 0
+<<<<<<< HEAD
+    - m_start_Decal1: 1
+    - m_start_Decal1AudioLink: 0
+    - m_start_Decal2: 1
+=======
     - m_start_Decal1: 0
     - m_start_Decal1AudioLink: 0
     - m_start_Decal2: 0
+>>>>>>> 250ab57 (Commit for testing)
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
@@ -3253,8 +3443,18 @@ Material:
     - m_start_PoiGlobalCategory: 0
     - m_start_PoiLightData: 0
     - m_start_PoiPostProcessingCategory: 0
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 0
+========
+    - m_start_PoiShading: 1
+    - m_start_PoiUVCategory: 1
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - m_start_PoiShading: 0
+    - m_start_PoiUVCategory: 0
+>>>>>>> 250ab57 (Commit for testing)
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
     - m_start_RimAudioLink: 0
@@ -3608,7 +3808,11 @@ Material:
     - s_start_Decal1ChannelSeparation: 0
     - s_start_Decal1GlobalMasking: 0
     - s_start_Decal1HueShift: 0
+<<<<<<< HEAD
+    - s_start_Decal1Video: 1
+=======
     - s_start_Decal1Video: 0
+>>>>>>> 250ab57 (Commit for testing)
     - s_start_Decal2ChannelSeparation: 0
     - s_start_Decal2GlobalMasking: 0
     - s_start_Decal2HueShift: 0
@@ -3919,7 +4123,15 @@ Material:
     - _ClearCoatReflectionTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+========
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+>>>>>>> 250ab57 (Commit for testing)
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _CubeMapRotation: {r: 0, g: 0, b: 0, a: 0}
@@ -3929,6 +4141,10 @@ Material:
     - _DecalColor2: {r: 1, g: 1, b: 1, a: 1}
     - _DecalColor3: {r: 1, g: 1, b: 1, a: 1}
     - _DecalMaskPan: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
+<<<<<<<< HEAD:Resources/KKVS/Materials/Camera/InternalScreenSolo.mat
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalPosition: {r: 0.32, g: 0.27, b: 0, a: 0}
     - _DecalPosition1: {r: 0.32, g: 0.27, b: 0, a: 0}
     - _DecalPosition2: {r: 0.5, g: 0.5, b: 0, a: 0}
@@ -3936,6 +4152,18 @@ Material:
     - _DecalScale: {r: 0.65, g: 0.55, b: 1, a: 0}
     - _DecalScale1: {r: 1, g: 1, b: 1, a: 0}
     - _DecalScale2: {r: 1, g: 1, b: 1, a: 0}
+<<<<<<< HEAD
+========
+    - _DecalPosition: {r: 0.24862647, g: 2.3990169, b: 0, a: 0}
+    - _DecalPosition1: {r: 0.2494564, g: 1.7191842, b: 0, a: 0}
+    - _DecalPosition2: {r: 0.32, g: 0.27, b: 0, a: 0}
+    - _DecalPosition3: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _DecalScale: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _DecalScale1: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _DecalScale2: {r: 0.65, g: 0.55, b: 1, a: 0}
+>>>>>>>> 250ab57 (Commit for testing):Resources/KKVS/Materials/Camera/CameraMatNoVideo.mat
+=======
+>>>>>>> 250ab57 (Commit for testing)
     - _DecalScale3: {r: 1, g: 1, b: 1, a: 0}
     - _DecalSideOffset: {r: 0, g: 0, b: 0, a: 0}
     - _DecalSideOffset1: {r: 0, g: 0, b: 0, a: 0}
