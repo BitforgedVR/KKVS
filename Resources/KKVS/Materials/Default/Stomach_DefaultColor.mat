@@ -338,7 +338,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8b9b565f8ec9212cc8b7a55b396a8882, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -4549,9 +4549,9 @@ Material:
     - m_start_Decal2AudioLink: 0
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
-    - m_start_DecalSection: 1
+    - m_start_DecalSection: 0
     - m_start_DepthBulge: 0
-    - m_start_DetailOptions: 1
+    - m_start_DetailOptions: 0
     - m_start_DistortionAudioLink: 0
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
@@ -4604,7 +4604,7 @@ Material:
     - m_start_PoiGlobalCategory: 1
     - m_start_PoiLightData: 1
     - m_start_PoiPostProcessingCategory: 1
-    - m_start_PoiShading: 1
+    - m_start_PoiShading: 0
     - m_start_PoiUVCategory: 1
     - m_start_RGBMask: 0
     - m_start_Rim2AudioLink: 0
@@ -5055,9 +5055,9 @@ Material:
     - s_start_GlobalMaskOptionsForceToggles: 0
     - s_start_GlobalMaskOptionsMinMaxSliders: 0
     - s_start_GlobalMaskOptionsSliders: 0
-    - s_start_LightDataAddPass: 1
-    - s_start_LightDataBasePass: 1
-    - s_start_LightDataDebug: 1
+    - s_start_LightDataAddPass: 0
+    - s_start_LightDataBasePass: 0
+    - s_start_LightDataDebug: 0
     - s_start_LightDataSDF: 1
     - s_start_LocalRotation: 0
     - s_start_LocalTranslation: 0
