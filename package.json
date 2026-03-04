@@ -14,7 +14,7 @@
     "url": "https://t.me/myththewolf"
   },
   "vpmDependencies": {
-    "com.vrchat.avatars": "3.10.1",
-    "net.bitforged.rdrm": "1.0.3"
+    "com.vrchat.avatars": "3.10.x",
+    "net.bitforged.rdrm": "1.0.4"
   }
 }
